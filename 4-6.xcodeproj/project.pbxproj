@@ -10,6 +10,10 @@
 		048082821CB49C2300755760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048082811CB49C2300755760 /* Foundation.framework */; };
 		048082851CB49C2300755760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048082841CB49C2300755760 /* main.m */; };
 		048082891CB49C2300755760 /* __6.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 048082881CB49C2300755760 /* __6.1 */; };
+		048082911CB49DC900755760 /* Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 048082901CB49DC900755760 /* Atom.m */; };
+		048082941CB49ED000755760 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 048082931CB49ED000755760 /* Animal.m */; };
+		048082971CB49F3500755760 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 048082961CB49F3500755760 /* People.m */; };
+		0480829A1CB4A2DF00755760 /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 048082991CB4A2DF00755760 /* Mouse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,14 @@
 		048082841CB49C2300755760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048082871CB49C2300755760 /* 4-6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4-6-Prefix.pch"; sourceTree = "<group>"; };
 		048082881CB49C2300755760 /* __6.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __6.1; sourceTree = "<group>"; };
+		0480828F1CB49DC900755760 /* Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
+		048082901CB49DC900755760 /* Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Atom.m; sourceTree = "<group>"; };
+		048082921CB49ED000755760 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		048082931CB49ED000755760 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		048082951CB49F3500755760 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		048082961CB49F3500755760 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		048082981CB4A2DF00755760 /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
+		048082991CB4A2DF00755760 /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				048082841CB49C2300755760 /* main.m */,
+				048082981CB4A2DF00755760 /* Mouse.h */,
+				048082991CB4A2DF00755760 /* Mouse.m */,
+				048082921CB49ED000755760 /* Animal.h */,
+				048082931CB49ED000755760 /* Animal.m */,
+				048082951CB49F3500755760 /* People.h */,
+				048082961CB49F3500755760 /* People.m */,
+				0480828F1CB49DC900755760 /* Atom.h */,
+				048082901CB49DC900755760 /* Atom.m */,
 				048082881CB49C2300755760 /* __6.1 */,
 				048082861CB49C2300755760 /* Supporting Files */,
 			);
@@ -139,6 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048082971CB49F3500755760 /* People.m in Sources */,
+				048082941CB49ED000755760 /* Animal.m in Sources */,
+				048082911CB49DC900755760 /* Atom.m in Sources */,
+				0480829A1CB4A2DF00755760 /* Mouse.m in Sources */,
 				048082851CB49C2300755760 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +277,7 @@
 				0480828E1CB49C2300755760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
