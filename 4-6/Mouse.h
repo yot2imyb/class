@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Mouse : NSObject
+@property (strong,nonatomic) NSString * name;
+- (void) eat;
+- (void) sleep;
+
+- (void)sad;
 
 @end

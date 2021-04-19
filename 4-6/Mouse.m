@@ -9,5 +9,17 @@
 #import "Mouse.h"
 
 @implementation Mouse
+- (void) sad
+{
+    NSLog(@"Mouse %@ sad!",self.name);
+}
+- (void) eat{
+    NSLog(@"Mouse %@ eat!",self.name);
+}
+- (void) sleep
+{
+    NSLog(@"Mouse %@ sleep!",self.name);
+}
+
 
 @end
